@@ -15,7 +15,7 @@
       <p>Completed: {{ completedCount }} / {{ jobs.length }}</p>
   
       <modal v-if="showModal" @confirm="deleteJob" @cancel="showModal = false">
-        <p>Are you sure you want to delete this job?</p>
+        <p>Bạn có chắc chắn muốn xóa công việc này không?</p>
       </modal>
     </div>
   </template>
